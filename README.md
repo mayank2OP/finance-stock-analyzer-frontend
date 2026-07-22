@@ -1,17 +1,59 @@
+<div align="center">
+
 # StockPilot
 
-> A clear, modern interface for evidence-grounded stock research and auditable backtesting.
+### Verifiable AI-assisted stock research, designed for clarity
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?logo=vercel)](https://stockpilot-analyzer.vercel.app)
+[![Vercel](https://img.shields.io/badge/Vercel-Live-black?logo=vercel)](https://stockpilot-analyzer.vercel.app)
+[![Responsive](https://img.shields.io/badge/UI-Responsive-155F45)](#product-experience)
 
-[**Open StockPilot**](https://stockpilot-analyzer.vercel.app) · [**API documentation**](https://finance-stock-analyzer.onrender.com/docs) · [**Backend repository**](https://github.com/mayank2OP/finance-stock-analyzer)
+[**Open live application**](https://stockpilot-analyzer.vercel.app) | [**View API documentation**](https://finance-stock-analyzer.onrender.com/docs) | [**Backend repository**](https://github.com/mayank2OP/finance-stock-analyzer)
 
-StockPilot presents quantitative stock analysis in plain language without hiding the evidence. Users can inspect every indicator, rule contribution, source, and backtest assumption behind a signal. AI agents help review and explain supplied evidence; they do not generate market values or override the rules-based result.
+</div>
 
-![StockPilot analysis workspace](https://raw.githubusercontent.com/mayank2OP/finance-stock-analyzer/main/docs/images/stockpilot-analysis.png)
+StockPilot turns quantitative stock analysis into a clear research experience without hiding the evidence. Users can inspect every indicator, rule contribution, source, and backtest assumption. AI agents review supplied evidence; they do not generate market values or override the rules-based result.
+
+## Visual product tour
+
+### Welcome experience
+
+The product opens with a concise explanation of its trust model and a distraction-free authentication flow.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mayank2OP/finance-stock-analyzer/main/docs/images/stockpilot-welcome.png" alt="StockPilot welcome and sign-in screen" width="100%" />
+</p>
+
+### Evidence-first research workspace
+
+The dashboard keeps the primary decision easy to understand while technical metrics, calculation proof, and source information remain available for inspection.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mayank2OP/finance-stock-analyzer/main/docs/images/stockpilot-analysis.png" alt="StockPilot research workspace" width="100%" />
+</p>
+
+### Transparent backend contract
+
+The frontend is backed by a documented FastAPI service rather than hidden mock data. Recruiters and developers can inspect every production endpoint.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mayank2OP/finance-stock-analyzer/main/docs/images/stockpilot-api-docs.png" alt="StockPilot live API documentation" width="100%" />
+</p>
+
+| Explainable analysis | Auditable backtests | Personal workspace | Production deployment |
+|:---:|:---:|:---:|:---:|
+| Metrics, proof, sources | Strategy vs benchmark | Watchlist and history | Vercel + Render + Neon |
+
+## Learning handbooks
+
+Use the illustrated guides to understand the complete system or prepare for interviews.
+
+| Guide | Download |
+|---|---|
+| Frontend learning and interview handbook | [Open PDF](https://github.com/mayank2OP/finance-stock-analyzer/blob/main/output/pdf/stockpilot-frontend-learning-handbook.pdf) |
+| Backend learning and interview handbook | [Open PDF](https://github.com/mayank2OP/finance-stock-analyzer/blob/main/output/pdf/stockpilot-backend-learning-handbook.pdf) |
 
 ## Product experience
 
