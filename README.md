@@ -31,7 +31,6 @@ NEXT_PUBLIC_API_URL=https://your-backend.example.com
 ## Validate
 
 ```powershell
-npm run build
 npm test
 ```
 
@@ -68,3 +67,17 @@ npm test
 
 Generated build output, local environment files, Wrangler state, dependencies,
 and TypeScript build metadata are excluded through `.gitignore`.
+
+### Vercel
+
+The default scripts use standard Next.js so Vercel can deploy the application
+with its native **Next.js** preset. In Vercel, set the build-time environment
+variable below for Production, Preview, and Development:
+
+```env
+NEXT_PUBLIC_API_URL=https://finance-stock-analyzer.onrender.com
+```
+
+Keep the Root Directory and Output Directory at their defaults. The optional
+`build:sites` and `test:sites` scripts preserve compatibility with the previous
+Vinext/Cloudflare build pipeline.
